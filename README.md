@@ -31,6 +31,19 @@ fork of karpathy's nanochat. i'm using it to learn more about llm's arquitecture
   * Cost: ≈ $28.72 / hr
 * **Local Machine:** macOS + Cursor via SSH
 
+# To-do (ideas/experiments)
+    - [ ]  tokenizer playground
+    - [ ]  Nanochat visualizations
+    - [ ]  Nanochat vibe testing
+    - [ ]  Nanochat finetuning
+        - [ ]  auto-chat loop: model chatting with itself using alternating prompts). Compare entropy and diversity across generations.
+    - [ ]  UI modifications:
+        - [ ]  copy messags
+        - [ ]  model picker
+        - [ ]  stats for nerds: t/s, ttft, total tokens
+        - [ ]  run inference multiple times at the same time to compare outputs
+- [ ]  synthetic data to finetune 32d model
+
 # Miscellaneous
 [https://github.com/karpathy/nanochat/discussions/1](https://github.com/karpathy/nanochat/discussions/1)
 
